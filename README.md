@@ -1,5 +1,4 @@
-# Adding-Dotproduct-instruction-to-PicoRV32-Core
-Extended the open-source PicoRV32 RISC-V soft-core by modifying the Verilog RTL decode and execution stages to support a custom hardware instruction and then Verified instruction functionality end-to-end via custom testbenches in Vivado RTL simulation and synthesized the modified microarchitecture to analyze hardware utilization
+
 # IEEE‑754 Single‑Precision 16‑Pair Dot Product on a Modified PicoRV32 (RV32I)
 
 A custom floating-point extension to [PicoRV32](https://github.com/YosysHQ/picorv32) that adds native single-precision FMA-style instructions and a single-dispatch **DOTPROD** instruction computing a 16-pair fused dot product entirely in hardware.
